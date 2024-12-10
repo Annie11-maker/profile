@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:700,900");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500");
+body {
+  font-size: 18px;
+  line-height: 1em;
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #F9F6F0;
+  color: #0D2D3F;
+}
+img {
+  height: 200px;
+  border-radius: 50%;
+}
+.container {
+  width: 70%;
+  margin: 40px auto;
+  text-align: center;
+}
+.card {
+  box-shadow: 0 10px 20px 20px rgba(0, 0, 0, .1);
+}
+.text {
+  width: 40%;
+  margin: 40px auto;
+  text-align: justify;
+}
+#pic {
+  margin: 0 auto;
+}
+a {
+  color: hotpink;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #4D9DE0;
+}
+a:hover {
+  text-decoration: underline;
+  color: skyblue;
+}
+a:active {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 48px;
+  line-height: 1.125em;
+  font-weight: 900;
+}
+h2 {
+  font-size: 24px;
+  line-height: 1.4em;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+h1,
+h2,
+h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  color: #E15554;
+}
+main {
+  margin: 150px auto 72px auto;
+  width: 45vw;
+}
+p {
+  line-height: 1.5em;
+  letter-spacing: normal;
+}
+footer {
+  margin: 0px auto 72px auto;
+  width: 45vw;
+  line-height: 1.5em;
+  text-align: center;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}

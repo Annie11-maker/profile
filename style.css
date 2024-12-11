@@ -4,8 +4,13 @@ body {
   font-size: 18px;
   line-height: 1em;
   font-family: "IBM Plex Sans", sans-serif;
-  background-color: hwb(0 88% 3%);
+  background-image: url('https://st3.depositphotos.com/7971730/18634/v/600/depositphotos_186348360-stock-video-light-coral-moving-background-with.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #0D2D3F;
+  margin: 0;
+  height: 100vh;
 }
 img {
   height: 200px;

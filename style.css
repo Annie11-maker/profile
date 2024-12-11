@@ -1,10 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:700,900");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500");
 body {
-  font-size: 18px;
-  line-height: 1em;
   font-family: "IBM Plex Sans", sans-serif;
-  background-image: url('https://st3.depositphotos.com/7971730/18634/v/600/depositphotos_186348360-stock-video-light-coral-moving-background-with.jpg');
+  background-image: url('images/IMG.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

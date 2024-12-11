@@ -54,11 +54,13 @@ a:active {
   text-decoration: underline;
 }
 h1 {
-  font-family: "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif;
+  font-family: "Agu Display", serif;
+  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  font-variation-settings: "MORF" 0;
   color: #4d1205;
+  font-size: 60px;
 }
 h2 {
   font-size: 24px;
@@ -70,7 +72,7 @@ h2 {
 h3 {
   font-size: 24px;
   line-height: 1.4em;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 16px;
   color: #d44040;
 }
@@ -88,11 +90,28 @@ p {
   letter-spacing: normal;
   color: #9e2e15;
 }
+a.linkedin i {
+  font-size: 30px;
+  color: #0e76a8;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+a.github i {
+  font-size: 30px;
+  color: black;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+a i:hover {
+  color: rgb(88, 29, 6);
+  transform: scale(1.2);
+}
 footer {
   margin: 0px auto 72px auto;
   width: 45vw;
   line-height: 1.5em;
   text-align: center;
+}
+.first-card {
+  transform: scale(0.9); /* Shrinks the card to 90% of its original size */
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */

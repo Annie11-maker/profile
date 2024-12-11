@@ -4,7 +4,7 @@ body {
   font-size: 18px;
   line-height: 1em;
   font-family: "IBM Plex Sans", sans-serif;
-  background-color: #F9F6F0;
+  background-color: hwb(0 88% 3%);
   color: #0D2D3F;
 }
 img {

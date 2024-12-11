@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:700,900");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500");
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Playwrite+HU:wght@100..400&family=Playwrite+US+Trad+Guides&display=swap');
 body {
   font-family: "IBM Plex Sans", sans-serif;
   background-image: url('images/IMG.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-  color: #0D2D3F;
+  color: #af6161;
   margin: 0;
   height: 100vh;
 }
@@ -20,6 +21,9 @@ img {
   text-align: center;
 }
 .card {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px 15px;
   box-shadow: 0 10px 20px 20px rgba(0, 0, 0, .1);
 }
 .text {
@@ -48,9 +52,11 @@ a:active {
   text-decoration: underline;
 }
 h1 {
-  font-size: 48px;
-  line-height: 1.125em;
-  font-weight: 900;
+  font-family: "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #4d1205;
 }
 h2 {
   font-size: 24px;
@@ -58,7 +64,6 @@ h2 {
   margin-top: 30px;
   margin-bottom: 16px;
 }
-h1,
 h2,
 h3 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,

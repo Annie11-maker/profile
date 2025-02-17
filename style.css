@@ -351,18 +351,7 @@ img {
     .bd-grid { margin-left: auto; margin-right: auto; }
     .home-img { right: 10%; }
     .nav-menu {
-        position: fixed;
-        top: var(--header-height);
-        right: -100%;
-        width: 80%;
-        height: 100%;
-        padding: 2rem;
-        background-color: #434141; /* Ensure it's the same as on mobile */
-        transition: .5s;
-    }
-    .nav-menu.show {
-        right: 0;
-        background-color: #434141; /* Make sure it's applied when the menu opens */
+        background-color: #434141;
     }
 
 }

@@ -161,9 +161,12 @@ img {
     font-size: 1.5rem;
     color: var(--second-color);
     transition: .3s;
+    font-size: 40px;
+    transition: transform 0.3s ease;
 }
 
-    .home-social-icon:hover { color: var(--first-color); }
+    .home-social-icon:hover { color: var(--first-color);
+      transform: scale(1.2); }
 
 .home-img {
     position: absolute;
@@ -383,13 +386,13 @@ img {
     background-color: #090808;
     margin: 5% auto;
     padding: 20px;
-    border: 1px solid #edebeb;
+    border: 3px solid var(--first-color);
     width: 80%;
     max-width: 500px;
   }
 
   .close {
-    color: #aaa;
+    color: var(--first-color);
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -397,7 +400,7 @@ img {
 
   .close:hover,
   .close:focus {
-    color: rgb(96, 85, 85);
+    color: var(--second-color);
     text-decoration: none;
     cursor: pointer;
   }

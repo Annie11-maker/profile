@@ -46,6 +46,14 @@ body {
     background-size: cover;
 }
 
+h2 {
+  font-size: x-large;
+}
+
+p {
+  font-size: larger;
+}
+
 h1, h2, p { margin: 0; }
 
 ul {
@@ -121,7 +129,7 @@ img {
 
 
 .nav-item { margin-bottom: var(--mb4); }
-.nav-link { position: relative; color: #ffffff; }
+.nav-link { position: relative; color: var(--second-color); }
     .nav-link:hover { position: relative; }
         .nav-link:hover::after {
             position: absolute;
@@ -132,6 +140,8 @@ img {
             top: 2rem;
             background-color: var(--first-color);
         }
+
+
 
 .nav-logo { color: var(--second-color); }
 .nav-toggle {

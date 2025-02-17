@@ -66,7 +66,7 @@ function openModal(project) {
 
     'Awesome Garage': 'Awesome Garage is a feature-rich platform, built with <b>Ruby on Rails</b>, that allows car owners to manage maintenance schedules, track service history, and organize vehicle-related tasks efficiently. It also includes a bookmarking feature to save favorite car, ensuring your vehicle stays in your Favourite list.',
 
-    'CookBook': 'CookBook is a beautifully crafted **recipe-sharing platform** developed using <b>Ruby on Rails</b>. Users can explore a vast collection of recipes, share their own creations, and easily bookmark their favorite recipes for quick access later. Whether you are a home cook or a professional chef, CookBook makes discovering and organizing recipes effortless!'
+    'CookBook': 'CookBook is a beautifully crafted recipe-sharing platform developed using <b>Ruby on Rails</b>. Users can explore a vast collection of recipes, share their own creations, and easily bookmark their favorite recipes for quick access later. Whether you are a home cook or a professional chef, CookBook makes discovering and organizing recipes effortless!'
   };
 
 

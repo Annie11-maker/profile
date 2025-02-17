@@ -51,3 +51,25 @@ sr.reveal('.skills-img', {delay: 400} )
 sr.reveal('.work-img', {interval: 200} )
 
 sr.reveal('.contact-input', {interval: 200} )
+
+//modal
+
+function openModal(project) {
+  document.getElementById('project-modal').style.display = "block";
+  document.getElementById('modal-title').textContent = project;
+
+  // You can add project-specific descriptions here, or dynamically load them
+  const descriptions = {
+    'Perfect-Pitch': 'A web app that creates PowerPoint slides using AI from an idea.',
+    'SurfEasy': 'An app that helps users find the best surfing spots with live weather data.',
+    'Awesome Garage': 'A platform to manage and organize car-related maintenance and logs.',
+    'CookBook': 'A recipe sharing platform where users can explore and share their favorite recipes.'
+  };
+
+  document.getElementById('modal-description').textContent = descriptions[project] || 'No description available.';
+}
+
+// Function to close the modal
+function closeModal() {
+  document.getElementById('project-modal').style.display = "none";
+}

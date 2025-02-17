@@ -92,27 +92,37 @@
       <h2 class="section-title">Projects</h2>
 
       <div class="work-container bd-grid">
-        <div class="work-img">
+        <div class="work-img" onclick="openModal('Perfect-Pitch')">
           <h2>Perfect-Pitch</h2>
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHccS6Vs0Y_-i6V6ivhUCy8ei4PYgxPz-2Ww&s" alt="image">
         </div>
 
-        <div class="work-img">
+        <div class="work-img" onclick="openModal('SurfEasy')">
           <h2>SurfEasy</h2>
           <img src="https://live.staticflickr.com/1835/42840367015_058ca69c0b_n.jpg" alt="image">
         </div>
 
-        <div class="work-img">
+        <div class="work-img" onclick="openModal('Awesome Garage')">
           <h2>Awesome Garage</h2>
           <img src="https://live.staticflickr.com/7728/27129724361_472c374a95_n.jpg" alt="image">
         </div>
 
-        <div class="work-img">
+        <div class="work-img" onclick="openModal('CookBook')">
           <h2>CookBook</h2>
           <img src="https://live.staticflickr.com/2640/3951433176_6e155e4601_n.jpg" alt="image">
         </div>
       </div>
     </section>
+
+    <!-- Modal -->
+    <div id="project-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+      </div>
+    </div>
+
   </main>
 
   <footer class="footer">

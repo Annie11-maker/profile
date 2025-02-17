@@ -189,7 +189,7 @@ img {
     border-radius: .5rem;
 }
 
-    .button:hover { box-shadow: 0 10px 36px rgba(0, 0, 0, .15); }
+    .button:hover { box-shadow: 0 10px 36px rgba(0, 0, 0, .15); background-color: orangered; }
 
 /*ABOUT*/
 
@@ -395,6 +395,18 @@ img {
     max-width: 500px;
   }
 
+  .modal-content a {
+    color: var(--first-color);
+  }
+  .modal-content a:hover {
+    color: orangered;
+    text-decoration: underline;
+  }
+
+  .modal-content h2 {
+    color: var(--first-color);
+  }
+
   .close {
     color: var(--first-color);
     float: right;
@@ -404,7 +416,8 @@ img {
 
   .close:hover,
   .close:focus {
-    color: var(--second-color);
+    color: orangered;
     text-decoration: none;
     cursor: pointer;
+    transform: scaleX(1.3);
   }

@@ -60,13 +60,17 @@ function openModal(project) {
 
   // You can add project-specific descriptions here, or dynamically load them
   const descriptions = {
-    'Perfect-Pitch': 'A web app that creates PowerPoint slides using AI from an idea.',
-    'SurfEasy': 'An app that helps users find the best surfing spots with live weather data.',
-    'Awesome Garage': 'A platform to manage and organize car-related maintenance and logs.',
-    'CookBook': 'A recipe sharing platform where users can explore and share their favorite recipes.'
+    'Perfect-Pitch': 'Perfect-Pitch is a powerful web app built with <b>Ruby on Rails</b> that creates professional PowerPoint slides using AI from just an idea. Whether you need a business presentation or an academic slideshow, Perfect-Pitch generates high-quality slides with relevant content and visuals in seconds. <a href="https://www.perfect-pitch.co.uk/" target="_blank">Check it out here!</a>',
+
+    'SurfEasy': 'SurfEasy is a dynamic web app developed using <b>Ruby on Rails</b>, designed for surfing enthusiasts. Users can rent surfboards or list their own for rent, making it easy to find the perfect gear for their next adventure.',
+
+    'Awesome Garage': 'Awesome Garage is a feature-rich platform, built with <b>Ruby on Rails</b>, that allows car owners to manage maintenance schedules, track service history, and organize vehicle-related tasks efficiently. It also includes a bookmarking feature to save favorite car, ensuring your vehicle stays in your Favourite list.',
+
+    'CookBook': 'CookBook is a beautifully crafted **recipe-sharing platform** developed using <b>Ruby on Rails</b>. Users can explore a vast collection of recipes, share their own creations, and easily bookmark their favorite recipes for quick access later. Whether you are a home cook or a professional chef, CookBook makes discovering and organizing recipes effortless!'
   };
 
-  document.getElementById('modal-description').textContent = descriptions[project] || 'No description available.';
+
+  document.getElementById('modal-description').innerHTML = descriptions[project] || 'No description available.';
 }
 
 // Function to close the modal

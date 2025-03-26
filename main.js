@@ -62,11 +62,9 @@ function openModal(project) {
   const descriptions = {
     'Perfect-Pitch': 'Perfect-Pitch is a powerful web app built with <b>Ruby on Rails</b> that creates professional PowerPoint slides using AI from just an idea. Whether you need a business presentation or an academic slideshow, Perfect-Pitch generates high-quality slides with relevant content and visuals in seconds. <a href="https://www.perfect-pitch.co.uk/" target="_blank">Check it out here!</a>',
 
-    'SurfEasy': 'SurfEasy is a dynamic web app developed using <b>Ruby on Rails</b>, designed for surfing enthusiasts. Users can rent surfboards or list their own for rent, making it easy to find the perfect gear for their next adventure.',
+    'SurfEasy': 'SurfEasy is a dynamic web app developed using <b>Ruby on Rails</b>, designed for surfing enthusiasts. Users can rent surfboards or list their own for rent, making it easy to find the perfect gear for their next adventure. Checkout the project on my GitHub: <a href="https://github.com/Annie11-maker/SurfEasy>" target="_blank">SurfEasy</a>',
 
-    'Awesome Garage': 'Awesome Garage is a feature-rich platform, built with <b>Ruby on Rails</b>, that allows car owners to manage maintenance schedules, track service history, and organize vehicle-related tasks efficiently. It also includes a bookmarking feature to save favorite car, ensuring your vehicle stays in your Favourite list.',
-
-    'CookBook': 'CookBook is a beautifully crafted recipe-sharing platform developed using <b>Ruby on Rails</b>. Users can explore a vast collection of recipes, share their own creations, and easily bookmark their favorite recipes for quick access later. Whether you are a home cook or a professional chef, CookBook makes discovering and organizing recipes effortless!'
+    'VogueFrame Studios': 'Built with HTML, CSS, JavaScript, and Bootstrap, Vogue-Frame Studios is a premium fashion photography studio website that is fully responsive and optimized for both mobile and desktop screen sizes. The website showcases the studio offerings, including services such as fashion shoots, portfolio creation, and editorial photography. It features an engaging and dynamic user experience, with smooth animations, a full-screen background video, and a well-organized navigation menu. Checkout the project on my GitHub: <a href="https://github.com/Annie11-maker/VogueFrame-Studios>" target="_blank">VogueFrame Studios</a>',
   };
 
 

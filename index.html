@@ -1,38 +1,133 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="container">
-      <div class="card">
-      <h1>Hello, I'm Annie😎</h1>
-      <img src="images/IMG_7483.jpg" alt="Annie">
-      <p>
-        I'm an aspiring web-developer at Le Wagon. Le Wagon teaches code to entrepreneurs and creative people around the world 🌍.. I love to work with Ruby💻.
-      </p>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav-logo"></a>
+      </div>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link">Projects</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <section class="home bd-grid" id="home">
+      <div class="home-data">
+        <h1 class="home-title"><span class="home-title-color">Annie</span><br> Web Developer</h1>
+        <a href="#work" class="button">Projects</a>
+      </div>
+
+      <div class="home-social">
+        <a href="https://www.linkedin.com/in/annie-shouket/" target="_blank" class="home-social-icon"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=quratulainshouket11@gmail.com" target="_blank" class="home-social-icon"><i class='bx bxl-gmail'></i></a>
+        <a href="https://github.com/Annie11-maker" target="_blank" class="home-social-icon"><i class='bx bxl-github'></i></a>
+      </div>
+
+    </section>
+
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about-container bd-grid">
+        <div>
+          <h2 class="about-subtitle">I'm Annie</h2>
+          <p class="about-text">As a passionate web developer with a strong background in full-stack development, I love building dynamic, user-friendly, and efficient web applications. My journey into web development started with a curiosity about how technology powers seamless digital experiences, and it quickly grew into a deep passion for crafting scalable and high-performing solutions. From front-end design to back-end architecture, I enjoy bringing ideas to life with clean, maintainable code and innovative problem-solving</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-container bd-grid">
+        <div>
+          <h2 class="skills-subtitle">Professional Skills</h2>
+          <p class="skills-text">
+            I enjoy bringing creative ideas to life through development. With proficiency in
+            <strong>Ruby</strong>,
+            <strong>Ruby on Rails</strong>,
+            <strong>HTML</strong>,
+            <strong>CSS</strong>,
+            <strong>JavaScript</strong>,
+            <strong>Bootstrap</strong>, and
+            <strong>SQL</strong>,
+            I ensure that my applications are not only well-designed but also highly functional.
+            I prioritize the needs and preferences of users, conducting research to understand their behaviors and crafting seamless, user-friendly experiences.
+          </p>
+
+          <div class="skills-data">
+              <img src="https://skillicons.dev/icons?i=ruby,rails,html,css,javascript,bootstrap,figma,python,cpp" alt="My tech stack - ruby, rails, python, c plus plus, html, css and figma">
+          </div>
+        </div>
+
+        <div>
+          <img src="https://i.postimg.cc/52LWbPyt/work3.jpg" alt="image" class="skills-img">
+        </div>
+      </div>
+    </section>
+
+    <section class="work section" id="work">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="work-container bd-grid">
+        <div class="work-img" onclick="openModal('Perfect-Pitch')">
+          <h2>Perfect-Pitch</h2>
+          <img src="images/pitch.png" alt="image">
+        </div>
+
+        <div class="work-img" onclick="openModal('SurfEasy')">
+          <h2>SurfEasy</h2>
+          <img src="images/SufrEasy.png" alt="image">
+        </div>
+
+        <div class="work-img" onclick="openModal('VogueFrame Studios')">
+          <h2>VogueFrame Studios</h2>
+          <img src="images/potfolio.png" alt="image">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="project-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
       </div>
     </div>
-    <div class="container">
-      <div class="card">
-      <h2>Exploring Coding💻</h2>
-      <p>I love to explore coding in my free time and learn new things.</p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="card">
-        <h2>Travelling🚗</h2>
-        <p>I love to travel. I like to go on long drives and explore natural landscapes and historic sites.</p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="card">
-        <h2>Follow me</h2>
-        <a href="https://www.linkedin.com/in/annie-shouket-16794b1a0/" target="_blank"> LinkedIn </a>
-      </div>
-    </div>
-    </p>
-  </body>
+
+  </main>
+
+  <footer class="footer">
+    <p>&#169; 2025 Copyright all rights reserved</p>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
 </html>

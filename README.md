@@ -14,6 +14,7 @@ Welcome to my personal portfolio! 🎉 This project is a simple, clean, responsi
 - HTML 📄
 - CSS 🎨
 - JavaScript ⚡
+- BootStrap
 
 ## How to View 👀
 
